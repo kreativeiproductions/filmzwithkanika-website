@@ -18,7 +18,7 @@
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"FilmzwithKanika","alternateName":["Films with Kanika"],"url":"https://filmzwithkanika.com","logo":"https://filmzwithkanika.com/assets/apple-touch-icon.png","email":"kanika@filmzwithkanika.com","telephone":"+91-9115937969","founder":{"@type":"Person","name":"Kanika Bansal","jobTitle":"Writer, Director, Producer"},"address":{"@type":"PostalAddress","addressLocality":"Mohali","addressRegion":"Punjab","addressCountry":"IN"},"sameAs":["https://www.youtube.com/@filmzwithkanika","https://www.instagram.com/filmzwithkanika","https://www.youtube.com/@ai.filmzwithkanika","https://www.instagram.com/KreativeIProductions"]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Inter+Tight:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;family=Instrument+Serif:ital@0;1&amp;family=Inter+Tight:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
 <style>
 body{margin:0;background:#0B0B0A}
 a{color:#D9B870}a:hover{color:#F0D592}
@@ -31,6 +31,18 @@ a{color:#D9B870}a:hover{color:#F0D592}
 .ph{position:relative;background-color:#141413;background-image:radial-gradient(ellipse at 50% 45%,rgba(217,184,112,.07),rgba(0,0,0,0) 62%);display:flex;align-items:center;justify-content:center;overflow:hidden;border:1px solid rgba(242,238,231,.07);box-sizing:border-box}
 .phl{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#8E8A83;text-align:center;padding:0 16px}
 .img{display:block;width:100%;height:100%;object-fit:cover}
+.sb{position:relative;width:100%;aspect-ratio:5/6;container-type:inline-size}
+.sb>*{position:absolute;box-sizing:border-box}
+.sb-pol{background:#F4EFE6;padding:3.2% 3.2% 0;box-shadow:0 18px 40px rgba(0,0,0,.55);transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.sb-pol:hover{transform:rotate(0deg) scale(1.04) !important;z-index:9}
+.sb-pol img{display:block;width:100%;object-fit:cover}
+.sb-cap{font-family:Caveat,cursive;color:#2A2622;font-size:3.4cqw;line-height:1.05;padding:.45em .2em .55em;text-align:center}
+.sb-note{background:#EFE6D2;color:#2A2622;font-family:Caveat,cursive;font-size:3.3cqw;line-height:1.12;padding:5% 6%;box-shadow:0 12px 28px rgba(0,0,0,.5)}
+.sb-note b{display:block;white-space:nowrap;font-size:1.3em;color:#8C2A1E;font-weight:700}
+.sb-tape{position:absolute;top:-10px;left:50%;width:34%;height:3.4cqw;transform:translateX(-50%) rotate(-3deg);background:rgba(217,184,112,.55);box-shadow:0 1px 2px rgba(0,0,0,.2)}
+.sb-title{font-family:Caveat,cursive;color:#D9B870;font-size:6.4cqw;transform:rotate(-4deg)}
+.award-grid{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr)}
+@media (max-width:900px){.award-grid{grid-template-columns:1fr !important}}
 .frame{position:relative;overflow:hidden;background:#141413}
 .frame img{transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:52px;padding:0 28px;font-size:12px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;box-sizing:border-box;transition:background .3s,color .3s,border-color .3s}
@@ -90,19 +102,21 @@ a{color:#D9B870}a:hover{color:#F0D592}
 <span>Welcome to my world of stories</span><span class="hide-m">Mohali, India · Working worldwide</span>
 </div>
 </div>
-</section><section style="border-bottom: 1px solid rgba(242,238,231,.1)">
-<div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))">
-<div style="display: flex; flex-direction: column; gap: 6px; padding: 36px 24px 36px 0"><span style="font-size: 40px; font-weight: 600; letter-spacing: -.02em">23+ yrs</span><span style="font-size: 13px; color: #8E8A83; line-height: 1.5">in film &amp; video production, since 2003</span></div>
-<div style="display: flex; flex-direction: column; gap: 6px; padding: 36px 24px 36px 0"><span style="font-size: 40px; font-weight: 600; letter-spacing: -.02em">10</span><span style="font-size: 13px; color: #8E8A83; line-height: 1.5">original films &amp; series, written and directed</span></div>
-<div style="display: flex; flex-direction: column; gap: 6px; padding: 36px 24px 36px 0"><span style="font-size: 40px; font-weight: 600; letter-spacing: -.02em; color: #D9B870">Best Short</span><span style="font-size: 13px; color: #8E8A83; line-height: 1.5">Film winner · Nawada International Film Festival 2025</span></div>
-<div style="display: flex; flex-direction: column; gap: 6px; padding: 36px 24px 36px 0"><span style="font-size: 40px; font-weight: 600; letter-spacing: -.02em">OTT</span><span style="font-size: 13px; color: #8E8A83; line-height: 1.5">web series Wrong Number acquired by a streaming platform</span></div>
-</div>
 </section>
 
 <!-- MEET KANIKA -->
-<section style="padding: 160px 0">
+<section style="padding: 96px 0">
 <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 64px 96px; align-items: center">
-<div class="frame" style="aspect-ratio: 4 / 5; width: 100%"><img class="img" src="assets/portrait-color.jpg" alt="Portrait of Kanika Bansal, writer and director" style="object-position: 50% 12%"></div>
+<div class="sb" role="img" aria-label="Scrapbook of Kanika Bansal's journey, from corporate video editing in 2003 to an award-winning film in 2025">
+<div class="sb-title" style="top: 0; left: 3%; z-index: 6">my journey…</div>
+<div class="sb-note" style="top: 7%; left: 0; width: 30%; transform: rotate(-5deg); z-index: 3"><span class="sb-tape"></span><b>2003</b>Mohali. My first corporate video edits.</div>
+<div class="sb-note" style="top: 5%; right: 0; width: 26%; transform: rotate(4deg); z-index: 3"><span class="sb-tape"></span><b>2012–19</b>Weddings. Real emotions, no retakes.</div>
+<div class="sb-pol" style="top: 12%; left: 33%; width: 40%; transform: rotate(-2deg); z-index: 5"><span class="sb-tape"></span><img src="assets/portrait-color.jpg" alt="" style="aspect-ratio: 4 / 5; object-position: 50% 12%"><div class="sb-cap">me ♥ behind every frame</div></div>
+<div class="sb-pol" style="top: 40%; left: 0; width: 31%; transform: rotate(-6deg); z-index: 6"><span class="sb-tape"></span><img src="assets/lysm-poster.jpg" alt="" style="aspect-ratio: 4 / 3"><div class="sb-cap">2019 · my first film!</div></div>
+<div class="sb-note" style="top: 40%; right: 0; width: 26%; transform: rotate(5deg); z-index: 6"><span class="sb-tape"></span><b>Jan 2024</b>My YouTube channel goes live.</div>
+<div class="sb-pol" style="top: 68%; left: 2%; width: 50%; transform: rotate(2deg); z-index: 7"><span class="sb-tape"></span><img src="assets/21ghante-hq.jpg" alt="" style="aspect-ratio: 16 / 9"><div class="sb-cap">2025 · Best Short Film ★</div></div>
+<div class="sb-pol" style="top: 66%; right: 0; width: 42%; transform: rotate(-4deg); z-index: 7"><span class="sb-tape"></span><img src="assets/wrongno.jpg" alt="" style="aspect-ratio: 16 / 10"><div class="sb-cap">Wrong Number → OTT</div></div>
+</div>
 <div style="display: flex; flex-direction: column; gap: 28px">
 <p class="eyebrow" style="margin: 0">Meet the filmmaker</p>
 <h2 style="margin: 0; font-size: clamp(40px, 4.6vw, 68px); line-height: 1; font-weight: 600; text-transform: uppercase">Kanika Bansal</h2>
@@ -118,7 +132,7 @@ a{color:#D9B870}a:hover{color:#F0D592}
 </section>
 
 <!-- FOR BRANDS -->
-<section style="padding: 150px 0">
+<section style="padding: 96px 0">
 <div class="wrap" style="display: flex; flex-direction: column; gap: 64px">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px 96px; align-items: end">
 <div style="display: flex; flex-direction: column; gap: 16px">
@@ -154,8 +168,8 @@ a{color:#D9B870}a:hover{color:#F0D592}
 </section>
 
 <!-- AWARD FEATURE -->
-<section style="background: #141413; padding: 140px 0">
-<div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); gap: 56px 80px; align-items: center">
+<section style="background: #141413; padding: 88px 0">
+<div class="wrap award-grid" style="display: grid; gap: 40px 64px; align-items: center">
 <a class="tile" href="21-ghante.html" aria-label="21 Ghante — film page"><div class="frame" style="aspect-ratio: 16 / 9"><img class="img" src="assets/21ghante-hq.jpg" alt="21 Ghante poster, Winner Nawada International Film Festival"></div></a>
 <div style="display: flex; flex-direction: column; gap: 26px">
 <p class="eyebrow" style="margin: 0; color: #D9B870">Best Short Film · Nawada International Film Festival 2025</p>
@@ -172,7 +186,7 @@ a{color:#D9B870}a:hover{color:#F0D592}
 </section>
 
 <!-- FILMOGRAPHY -->
-<section style="padding: 150px 0">
+<section style="padding: 96px 0">
 <div class="wrap" style="display: flex; flex-direction: column; gap: 56px">
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; border-bottom: 1px solid rgba(242,238,231,.12); padding-bottom: 28px">
 <div style="display: flex; flex-direction: column; gap: 16px">
@@ -260,7 +274,7 @@ a{color:#D9B870}a:hover{color:#F0D592}
 </section>
 
 <!-- CLIENTS -->
-<section style="background: #F2EEE7; color: #0B0B0A; padding: 130px 0">
+<section style="background: #F2EEE7; color: #0B0B0A; padding: 88px 0">
 <div class="wrap" style="display: flex; flex-direction: column; gap: 52px">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px 96px; align-items: end">
 <div style="display: flex; flex-direction: column; gap: 16px">
@@ -317,7 +331,7 @@ a{color:#D9B870}a:hover{color:#F0D592}
 
 
 <!-- NEXT FILM -->
-<section style="background: #141413; padding: 110px 0">
+<section style="background: #141413; padding: 80px 0">
 <div class="wrap" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 32px">
 <div style="display: flex; flex-direction: column; gap: 14px; max-width: 760px">
 <p class="eyebrow" style="margin: 0; color: #D9B870">Next film · in development</p>
