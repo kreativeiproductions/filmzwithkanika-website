@@ -29,6 +29,9 @@ a{color:#D9B870}a:hover{color:#F0D592}
 .nav a{color:#F2EEE7;text-decoration:none;font-size:12px;letter-spacing:.18em;text-transform:uppercase}
 .nav a:hover,.nav a.on{color:#D9B870}
 .img{display:block;width:100%;height:100%;object-fit:cover}
+.ai-mosaic{position:absolute;top:0;bottom:0;right:0;width:64%;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:6px}
+.ai-mosaic img{width:100%;height:100%;object-fit:cover;display:block}
+@media (max-width:760px){.ai-mosaic{width:100%;opacity:.45}}
 .frame{position:relative;overflow:hidden;background:#141413}
 .frame img{transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:52px;padding:0 28px;font-size:12px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;box-sizing:border-box;transition:background .3s,color .3s,border-color .3s}
@@ -62,30 +65,20 @@ a{color:#D9B870}a:hover{color:#F0D592}
 <nav aria-label="Primary" style="display: flex; flex-wrap: wrap; gap: 12px 32px">
 <a href="work.html">Work</a><a href="for-brands.html">For Brands</a><a class="on" href="ai-films.html" aria-current="page">AI Films</a><a href="journey.html">Journey</a><a href="contact.html">Contact</a>
 </nav>
-<a class="btn btn-line" href="contact.html" style="min-height: 44px; padding: 0 22px">Work with me</a>
+<a class="btn btn-line" href="contact.html" style="min-height: 44px; padding: 0 22px">Let’s create</a>
 </div>
 </header>
 
 <!-- HERO -->
-<section class="frame" style="min-height: 700px; display: flex">
-<img class="img" src="assets/srf1aptie9o.jpg" alt="" style="position: absolute; inset: 0; opacity: .55; object-position: 70% 40%">
-<div style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(11,11,10,.96) 0%, rgba(11,11,10,.65) 50%, rgba(11,11,10,.2) 100%)"></div>
-<div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,11,10,.5) 0%, rgba(11,11,10,0) 30%, rgba(11,11,10,1) 100%)"></div>
-<div class="wrap" style="position: relative; display: flex; flex-direction: column; justify-content: flex-end; gap: 34px; padding-bottom: 80px">
+<section class="frame" style="min-height: 640px; display: flex">
+<div class="ai-mosaic" aria-hidden="true"><img src="assets/h90x6vq1-ee.jpg" alt=""><img src="assets/sahara.jpg" alt=""><img src="assets/srf1aptie9o.jpg" alt=""><img src="assets/3lzahkkgswi.jpg" alt=""><img src="assets/q95aqexebte.jpg" alt=""><img src="assets/kkzmavnp4y0.jpg" alt=""></div>
+<div style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(11,11,10,1) 0%, rgba(11,11,10,.92) 34%, rgba(11,11,10,.35) 56%, rgba(11,11,10,0) 72%)"></div>
+<div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,11,10,.55) 0%, rgba(11,11,10,0) 22%, rgba(11,11,10,0) 78%, rgba(11,11,10,1) 100%)"></div>
+<div class="wrap" style="position: relative; display: flex; flex-direction: column; justify-content: flex-end; gap: 34px; padding-top: 150px; padding-bottom: 72px">
 <p class="eyebrow" style="margin: 0; color: #D9B870">AI Film Studio · India &amp; worldwide</p>
 <h1 style="margin: 0; font-size: clamp(52px, 7.6vw, 120px); line-height: .94; font-weight: 600; letter-spacing: -.02em; text-transform: uppercase; max-width: 1100px">New tools. <span class="serif" style="font-style: italic; text-transform: none; color: #D9B870; letter-spacing: 0">A storyteller's eye.</span></h1>
 <p style="margin: 0; max-width: 640px; font-size: 19px; line-height: 1.6; color: #D8D3CA; font-weight: 300">AI ad films, UGC-style reels, product films and full music videos — written and directed by a filmmaker with 23+ years in production, for brands anywhere in the world.</p>
-<div style="display: flex; flex-wrap: wrap; gap: 14px"><a class="btn btn-gold" href="#showcase">Watch the AI work</a><a class="btn btn-line" href="contact.html">Brief an AI film</a></div>
-</div>
-</section>
-
-<!-- STATS -->
-<section style="border-bottom: 1px solid rgba(242,238,231,.1)">
-<div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))">
-<div style="display: flex; flex-direction: column; gap: 6px; padding: 34px 24px 34px 0"><span style="font-size: 40px; font-weight: 600">17</span><span style="font-size: 13px; color: #8E8A83; line-height: 1.5">AI films &amp; reels on this page</span></div>
-<div style="display: flex; flex-direction: column; gap: 6px; padding: 34px 24px 34px 0"><span style="font-size: 40px; font-weight: 600">4 formats</span><span style="font-size: 13px; color: #8E8A83; line-height: 1.5">brand ads · UGC reels · music videos · corporate</span></div>
-<div style="display: flex; flex-direction: column; gap: 6px; padding: 34px 24px 34px 0"><span style="font-size: 40px; font-weight: 600">Remote</span><span style="font-size: 13px; color: #8E8A83; line-height: 1.5">briefs, reviews and delivery online, in English or Hindi</span></div>
-<div style="display: flex; flex-direction: column; gap: 6px; padding: 34px 24px 34px 0"><span style="font-size: 40px; font-weight: 600; color: #D9B870">23+ yrs</span><span style="font-size: 13px; color: #8E8A83; line-height: 1.5">of real-world filmmaking behind every AI frame</span></div>
+<div style="display: flex; flex-wrap: wrap; gap: 14px"><a class="btn btn-gold" href="#showcase">Enter the AI studio</a><a class="btn btn-line" href="contact.html">Dream it. I’ll direct it.</a></div>
 </div>
 </section>
 
